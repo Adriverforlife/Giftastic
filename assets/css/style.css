@@ -1,0 +1,18 @@
+a {
+    color: coral;
+}
+
+.btn {
+    background-color: coral;
+    border-color: beige;
+}
+.bg-brown{
+    background-color: peru;
+}
+.card {
+    margin: 20px
+}
+body {
+    background-image: url(../images/floor-tile.png);
+    background-repeat: repeat;
+}
