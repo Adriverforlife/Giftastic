@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Image and text -->
+
+
+
+    <!--Body-->
+    <div class="container">
+        <div class="row justify-content-between border-bottom" style="margin:0px 0px 20px;background-color:beige">
+
+            <div class="col-md-4" style="background-color:coral">
+                <div class="row justify-content-center">
+                    <h1>Michael Eguina</h1>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row justify-content-med-end justify-content-center" style="margin: 10px">
+                        <form id="movie-form">
+                                <label for="movie-input"></label>
+                                <input type="text" id="movie-input">
+                          
+                                <!-- Button triggers new movie to be added -->
+                                <input id="add-movie" type="submit" value="Add a car brand!">
+                              </form>                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="jumbotron">
+                    <h1 class="display-4" style="color: coral">Car Brands</h1>
+                    <hr class="my-4">
+
+                    <div id="buttons"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="gifs-appear-here" class="col-12">
+                
+            </div>
+        </div>
+
+
+    </div>
+    <nav class="navbar fixed-bottom navbar-light bg-brown justify-content-center">
+        <a class="navbar-brand" href="#">@copyright</a>
+    </nav>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="logic.js"></script>
+    <script text="text/javascript">
+        $(document).ready(function () {
+            // Handler for .ready() called.
+            giffygif();
+        });
+
+    </script>
+
+</body>
+
+</html>
